@@ -1,0 +1,10 @@
+{application, uuid4,
+ [
+   {description, "uuid4 generation library"},
+   {vsn, "1.0.0"},
+   {modules, [uuid4]},
+   {registered, []},
+   {applications, [ kernel, stdlib ]},
+   {mod, {[]}},
+   {env, []}
+]}.
